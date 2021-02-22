@@ -1,0 +1,286 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Ixodes_June29_complete.tsv",
+    "dcterms:bibliographicCitation" : "US National Museum of Natural History / Walter Reed Ixodes Records",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "hasHost",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "RMLNUM",
+        "titles" : "RMLNUM",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceCatalogNumber",
+        "titles" : "USNMENT",
+        "datatype" : "string"
+      }, {
+        "name" : "RMLSUF",
+        "titles" : "RMLSUF",
+        "datatype" : "string"
+      }, {
+        "name" : "RMLALFA",
+        "titles" : "RMLALFA",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "GENUST",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "SPECIES",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubgenus",
+        "titles" : "SUBGEN",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspecificEpithet",
+        "titles" : "SUBSPEC",
+        "datatype" : "string"
+      }, {
+        "name" : "AUTHOR",
+        "titles" : "AUTHOR",
+        "datatype" : "string"
+      }, {
+        "name" : "IDENTIF",
+        "titles" : "IDENTIF",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSex",
+        "titles" : "SEX1T",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStage",
+        "titles" : "STAGE1T",
+        "datatype" : "string"
+      }, {
+        "name" : "TYPE1T",
+        "titles" : "TYPE1T",
+        "datatype" : "string"
+      }, {
+        "name" : "NUMSPC1",
+        "titles" : "NUMSPC1",
+        "datatype" : "string"
+      }, {
+        "name" : "GROWN1T",
+        "titles" : "GROWN1T",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "SEX2T",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStage",
+        "titles" : "STAGE2T",
+        "datatype" : "string"
+      }, {
+        "name" : "TYPE2T",
+        "titles" : "TYPE2T",
+        "datatype" : "string"
+      }, {
+        "name" : "NUMSPC2",
+        "titles" : "NUMSPC2",
+        "datatype" : "string"
+      }, {
+        "name" : "GROWN2T",
+        "titles" : "GROWN2T",
+        "datatype" : "string"
+      }, {
+        "name" : "SEX3T",
+        "titles" : "SEX3T",
+        "datatype" : "string"
+      }, {
+        "name" : "STAGE3T",
+        "titles" : "STAGE3T",
+        "datatype" : "string"
+      }, {
+        "name" : "TYPE3T",
+        "titles" : "TYPE3T",
+        "datatype" : "string"
+      }, {
+        "name" : "NUMSPC3",
+        "titles" : "NUMSPC3",
+        "datatype" : "string"
+      }, {
+        "name" : "GROWN3T",
+        "titles" : "GROWN3T",
+        "datatype" : "string"
+      }, {
+        "name" : "SEX4T",
+        "titles" : "SEX4T",
+        "datatype" : "string"
+      }, {
+        "name" : "STAGE4T",
+        "titles" : "STAGE4T",
+        "datatype" : "string"
+      }, {
+        "name" : "TYPE4T",
+        "titles" : "TYPE4T",
+        "datatype" : "string"
+      }, {
+        "name" : "NUMSPC4",
+        "titles" : "NUMSPC4",
+        "datatype" : "string"
+      }, {
+        "name" : "GROWN4T",
+        "titles" : "GROWN4T",
+        "datatype" : "string"
+      }, {
+        "name" : "PRESRVT",
+        "titles" : "PRESRVT",
+        "datatype" : "string"
+      }, {
+        "name" : "DEPOSTT",
+        "titles" : "DEPOSTT",
+        "datatype" : "string"
+      }, {
+        "name" : "REMARKS",
+        "titles" : "REMARKS",
+        "datatype" : "string"
+      }, {
+        "name" : "DISEASE",
+        "titles" : "DISEASE",
+        "datatype" : "string"
+      }, {
+        "name" : "LIFCYCL",
+        "titles" : "LIFCYCL",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::HOSTGRP",
+        "titles" : "Host1::HOSTGRP",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "Host1::HOSTFAM",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "Host1::HOSTGEN",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithet",
+        "titles" : "Host1::HOSTSP",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubspecificEpithet",
+        "titles" : "Host1::HOSTSSP",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::HOSTNUM",
+        "titles" : "Host1::HOSTNUM",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::HOSTREM",
+        "titles" : "Host1::HOSTREM",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::CNTRYSTT",
+        "titles" : "Host1::CNTRYSTT",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::CNTRYNAME",
+        "titles" : "Host1::CNTRYNAME",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::FCNTRYT",
+        "titles" : "Host1::FCNTRYT",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::FCNTY",
+        "titles" : "Host1::FCNTY",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Host1::SPLOCAL",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::MISCLOC",
+        "titles" : "Host1::MISCLOC",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::OLDCAT",
+        "titles" : "Host1::OLDCAT",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::SOURCE",
+        "titles" : "Host1::SOURCE",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::ELEV",
+        "titles" : "Host1::ELEV",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LATDEG",
+        "titles" : "Host1::LATDEG",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LATMIN",
+        "titles" : "Host1::LATMIN",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LATSEC",
+        "titles" : "Host1::LATSEC",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LATHEM",
+        "titles" : "Host1::LATHEM",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LONDEG",
+        "titles" : "Host1::LONDEG",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LONMIN",
+        "titles" : "Host1::LONMIN",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LONSEC",
+        "titles" : "Host1::LONSEC",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::LONHEM",
+        "titles" : "Host1::LONHEM",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Host1::LAT_DEC",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Host1::LON_DEC",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::COLLCTR",
+        "titles" : "Host1::COLLCTR",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::HOST_COMMON_NAME",
+        "titles" : "Host1::HOST_COMMON_NAME",
+        "datatype" : "string"
+      }, {
+        "name" : "Host1::FMTDTE1",
+        "titles" : "Host1::FMTDTE1",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Host1::FMTDTE2",
+        "datatype": {
+          "base": "date",
+          "format": "YYYYMMdd"
+        }
+
+      } ]
+    }
+  } ]
+}
