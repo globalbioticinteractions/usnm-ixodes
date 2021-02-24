@@ -15,6 +15,7 @@
     "null" : [ "" ],
     "interactionTypeName": "hasHost",
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
+    "basisOfRecordName": "PreservedSpecimen",
     "tableSchema" : {
       "columns" : [ {
         "name" : "RMLNUM",
