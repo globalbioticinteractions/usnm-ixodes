@@ -18,6 +18,7 @@
     "basisOfRecordName": "PreservedSpecimen",
     "tableSchema" : {
       "columns" : [ {
+        "_note" : "this equivalent to an event id",
         "name" : "RMLNUM",
         "titles" : "RMLNUM",
         "datatype" : "string"
