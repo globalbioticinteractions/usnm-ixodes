@@ -9,7 +9,7 @@
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
     "url" : "Ixodes_June29_complete.tsv",
-    "dcterms:bibliographicCitation" : "US National Museum of Natural History / Walter Reed Ixodes Records",
+    "dcterms:bibliographicCitation" : "US National Museum of Natural History Ixodes Records",
     "delimiter" : "\t",
     "headerRowCount" : 1,
     "null" : [ "" ],
