@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/globalbioticinteractions/usnm-ixodes.svg)](https://travis-ci.com/globalbioticinteractions/usnm-ixodes) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/usnm-ixodes)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/usnm-ixodes)
+[![Review Status](https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/usnm-ixodes/review.svg)](https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/usnm-ixodes/README.txt) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/usnm-ixodes)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/usnm-ixodes)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
